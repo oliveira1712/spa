@@ -1,0 +1,9 @@
+*.sh text eol=lf
+*.sol text eol=lf
+*.adoc text eol=lf
+**/*.sql text eol=lf
+si_grupo_g/**/*.toml text eol=lf
+postgres/db/**/PG_VERSION text eol=lf
+postgres/db/**/*.conf text eol=lf
+postgres/db/**/*.opts text eol=lf
+postgres/db/postmaster.pid eol=lf

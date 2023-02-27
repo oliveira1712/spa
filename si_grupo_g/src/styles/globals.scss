@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'scrollbar.scss';
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}

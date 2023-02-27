@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  nextjs:
+    image: ${DOCKER_REGISTRY-}nextjs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: docker/entrypoint.sh
+    ports:
+      - '3000:3000'
+      - '8288:8288'
+    volumes:
+      - .:/appNextJS
